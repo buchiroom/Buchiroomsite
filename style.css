@@ -1,0 +1,77 @@
+/* 全体 */
+body {
+    margin: 0;
+    font-family: "Yu Gothic", "Hiragino Maru Gothic ProN", sans-serif;
+    background: #f5fff5;
+    color: #333;
+}
+
+/* ヘッダー */
+header {
+    background: #2e8b57;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav a {
+    color: #eaffea;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* 記事一覧 */
+.posts {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.post {
+    background: #ffffff;
+    border-left: 6px solid #2e8b57;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.post:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.date {
+    font-size: 12px;
+    color: #666;
+}
+
+.readmore {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    background: #2e8b57;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.readmore:hover {
+    background: #246f46;
+}
+
+/* フッター */
+footer {
+    background: #2e8b57;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
